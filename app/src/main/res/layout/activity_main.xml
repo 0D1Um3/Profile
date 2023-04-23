@@ -17,6 +17,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мама:*просит улыбнуться для фото.* \n Моя улыбка:"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/profile"
+        app:layout_constraintEnd_toEndOf="@+id/top_back"
+        app:layout_constraintStart_toStartOf="@+id/top_back" />
 
     <ImageView
         android:id="@+id/profile"
@@ -32,7 +41,7 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lion Fisher"
+        android:text="Guts Dark Swordsman"
         android:textStyle="bold"
         android:textSize="@dimen/prof_name"
         app:layout_constraintEnd_toEndOf="@+id/profile"
@@ -43,7 +52,7 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="lionfisher@gmail.com"
+        android:text="gutsdarkswordsman@gmail.com"
         android:textSize="@dimen/email"
         app:layout_constraintEnd_toEndOf="@+id/name"
         app:layout_constraintStart_toStartOf="@+id/name"
@@ -98,7 +107,7 @@
             android:drawablePadding="@dimen/pad_ic"
             android:textSize="@dimen/but_text"
             android:layout_marginStart="@dimen/but_marg"
-            android:layout_marginEnd="@dimen/but_marg_top"
+            android:layout_marginEnd="@dimen/but_marg"
             android:layout_marginTop="@dimen/but_marg_top"
             android:text="Personal Informations"
             android:textStyle="bold"
